@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using DaddysCRM.Model;
 using DaddysCRM.DAL;
 
-namespace WindowsFormsApplication1
+namespace DaddysCRM
 {
     public partial class FormAddGoods : Form
     {

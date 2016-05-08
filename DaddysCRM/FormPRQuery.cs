@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DaddysCRM.DAL;
 
-namespace WindowsFormsApplication1
+namespace DaddysCRM
 {
     public partial class FormPRQuery : Form
     {

@@ -17,13 +17,6 @@ E:\我的文档\MyCodes\WindowsFormsApplication1\WindowsFormsApplication1\obj\De
 E:\我的文档\MyCodes\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\DaddysCRM.csprojResolveAssemblyReference.cache
 E:\我的文档\MyCodes\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormCustomerManager.resources
 E:\我的文档\MyCodes\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormPRQuery.resources
-E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\WindowsFormsApplication1.FormCustomerManager.resources
-E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\WindowsFormsApplication1.FormAddCustomer.resources
-E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\WindowsFormsApplication1.FormAddGoods.resources
-E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\WindowsFormsApplication1.FormAddPurchaseRecord.resources
-E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\WindowsFormsApplication1.FormGoodsManager.resources
-E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\WindowsFormsApplication1.FormPRQuery.resources
-E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\WindowsFormsApplication1.FormTreeFrame.resources
 E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.csproj.GenerateResource.Cache
 E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\bin\Debug\DaddysCRM.exe.config
 E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\bin\Debug\DaddysCRM.exe.manifest
@@ -35,3 +28,11 @@ E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.exe.manifest
 E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.application
 E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.exe
 E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.pdb
+E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.csprojResolveAssemblyReference.cache
+E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.FormCustomerManager.resources
+E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.FormAddGoods.resources
+E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.FormAddPurchaseRecord.resources
+E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.FormGoodsManager.resources
+E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.FormTreeFrame.resources
+E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.FormAddCustomer.resources
+E:\我的文档\MyCodes\DaddysCRM\DaddysCRM\obj\Debug\DaddysCRM.FormPRQuery.resources
