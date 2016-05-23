@@ -43,24 +43,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DaddysCRM.exe" size="65976">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DaddysCRM.exe" size="64512">
       <assemblyIdentity name="DaddysCRM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>S18mbdviPF9LCu7tPIakqSF3NzVu7JoHquziaaLVuWY=</dsig:DigestValue>
+        <dsig:DigestValue>Z09rUHexKIjXRbThmKFwVXGtAYm21hxwY4WaqA+yPdg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="DaddysCRM.exe.config" size="326">
+  <file name="DaddysCRM.exe.config" size="318">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Okg8d/P4gtIFAeTgDdHSKsAx12sJP6BmsQdCGCSXGa0=</dsig:DigestValue>
+      <dsig:DigestValue>kqmvuEjl11SRPvyeNKC0jSSO8RsNLn1aNrrH7++yTFo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="logo.ico" size="9662">

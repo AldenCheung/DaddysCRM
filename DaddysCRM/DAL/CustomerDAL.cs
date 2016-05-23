@@ -25,7 +25,10 @@ namespace DaddysCRM.DAL
             {
                 sqlstr += string.Format(@" and ID={0}", id);
             }
+            OleDbParameter parameter = new OleDbParameter("?",OleDbType.Integer);
+            
             OleDbCommand command = new OleDbCommand(sqlstr, connection);
+            //command.Parameters.Add(parameter);
             OleDbDataAdapter adp = new OleDbDataAdapter();
             adp.SelectCommand = command;
             DataSet ds = new DataSet();
@@ -77,7 +80,11 @@ namespace DaddysCRM.DAL
             else
             {
                 //插入
-                command.CommandText = string.Format("insert into 通讯录 (CustomerName,Telephone,Address,CreateTime) values('{0}','{1}','{2}','{3}')", entity.CustomerName, entity.Telephone, entity.Address, DateTime.Now.ToString());
+                command.CommandText = string.Format("insert into 通讯录 (CustomerName,Telephone,Address,CreateTime) values('{0}','{1}','{2}',?)", entity.CustomerName, entity.Telephone, entity.Address);
+                
+                OleDbParameter param = new OleDbParameter("?",OleDbType.DBDate);
+                param.Value = DateTime.Now;
+                command.Parameters.Add(param);
             }
             command.Connection = connection;
             command.ExecuteNonQuery();

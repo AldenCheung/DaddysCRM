@@ -48,9 +48,13 @@ left join 通讯录 b on a.CustomerID=b.ID  where 1=1");
 
             command.CommandText = string.Format(@"insert into 购买记录 (Goods,[Count],Price,BuyYear,BuyDate,CustomerId,GoodsID,
             
-            PayStatus,TotalPrice) values('{0}',{1},{2},{3},'{4}',{5},{6},{7},{8})", entity.Goods, entity.Count, entity.Price, entity.BuyYear,entity.BuyDate.ToString(),
+            PayStatus,TotalPrice) values('{0}',{1},{2},{3},?,{4},{5},{6},{7})", entity.Goods, entity.Count, entity.Price, entity.BuyYear,
            entity.CustomerID,entity.GoodsID,entity.PayStatus,entity.TotalPrice);
-            //command.CommandText = string.Format("insert into 购买记录 (Goods,CustomerId,GoodsID) values('{0}',{1},{2})", entity.Goods, entity.CustomerID, entity.GoodsID);
+
+            OleDbParameter param = new OleDbParameter("?", OleDbType.DBDate);
+            param.Value = entity.BuyDate;
+            command.Parameters.Add(param);
+         
             command.Connection = connection;
             command.ExecuteNonQuery();
 
